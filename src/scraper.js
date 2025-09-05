@@ -177,12 +177,17 @@ export class MimaTourScraper {
             const link = extractLink(element);
             const status = extractText(element, '.blog-date small, .status, .disponibilidade');
 
+            // Extract UID from URL (e.g., uid749 from the URL)
+            const uidMatch = link.match(/uid(\d+)/);
+            const uid = uidMatch ? uidMatch[1] : null;
+
             // Basic trip info for listing
             const trip = {
+              uid: uid,
               titulo: title.replace('▶️ ', '').trim(),
               url_img: image,
               url_reserva: link,
-              status: status,
+              status: status || "DISPONÍVEL", // Default to DISPONÍVEL if no status
               preco_listagem: price,
               // These will be filled by detailed extraction
               datas: [],
@@ -507,7 +512,7 @@ export class MimaTourScraper {
         function extractIncludes() {
           const includes = [];
 
-          // Look for <summary>O QUE INCLUI</summary> element
+          // Method 1: Look for <summary>O QUE INCLUI</summary> element
           const summaryElements = document.querySelectorAll('summary');
           for (const summary of summaryElements) {
             if (summary.textContent.trim().toUpperCase().includes('O QUE INCLUI') ||
@@ -517,13 +522,29 @@ export class MimaTourScraper {
               const details = summary.parentElement;
               if (details && details.tagName === 'DETAILS') {
                 const content = details.textContent.replace(summary.textContent, '').trim();
-                // Split by common separators and clean up
-                const items = content.split(/\n|;|•|-|\*/).filter(item => {
-                  const clean = item.trim();
-                  return clean.length > 2 && clean.length < 100 &&
-                         !clean.match(/^\d+$/) &&
-                         !clean.match(/^[A-Z\s]{1,5}$/);
+
+                // Better parsing - split by common patterns and clean up
+                let items = [];
+
+                // First try to split by capital letters (new words)
+                const capitalSplit = content.split(/(?=[A-Z][a-z])/);
+                capitalSplit.forEach(item => {
+                  const clean = item.trim().replace(/^Incluso:/, '').trim();
+                  if (clean.length > 2 && clean.length < 80) {
+                    items.push(clean);
+                  }
                 });
+
+                // If that doesn't work well, try other separators
+                if (items.length <= 1) {
+                  items = content.replace(/Incluso:/g, '').split(/\n|;|•|-|\*|(?=[A-Z][a-z]{3,})/).filter(item => {
+                    const clean = item.trim();
+                    return clean.length > 2 && clean.length < 100 &&
+                           !clean.match(/^\d+$/) &&
+                           !clean.match(/^[A-Z\s]{1,5}$/);
+                  });
+                }
+
                 includes.push(...items.map(item => item.trim()));
                 break;
               }
@@ -540,6 +561,58 @@ export class MimaTourScraper {
                 break;
               }
             }
+          }
+
+          // Method 2: Look for table with icons (new method for the table structure)
+          if (includes.length === 0) {
+            const tables = document.querySelectorAll('table');
+            for (const table of tables) {
+              const rows = table.querySelectorAll('tr');
+              if (rows.length > 0) {
+                rows.forEach(row => {
+                  const cells = row.querySelectorAll('td');
+                  if (cells.length >= 2) {
+                    // First cell usually has SVG icon, second cell has the text
+                    const iconCell = cells[0];
+                    const textCell = cells[1];
+
+                    // Check if first cell has SVG (icon)
+                    if (iconCell.querySelector('svg') && textCell) {
+                      const boldText = textCell.querySelector('b');
+                      if (boldText) {
+                        const itemText = boldText.textContent.trim();
+                        if (itemText.length > 2 && itemText.length < 100) {
+                          includes.push(itemText);
+                        }
+                      }
+                    }
+                  }
+                });
+              }
+            }
+          }
+
+          // Method 3: Fallback - look for common travel inclusion patterns
+          if (includes.length === 0) {
+            const allText = document.body.textContent;
+            const commonInclusions = [
+              'Transporte',
+              'Kit lanche',
+              'Kit lanchinho',
+              'Guia acompanhante',
+              'Monitor',
+              'Taxa de entrada',
+              'Seguro viagem',
+              'Ar condicionado',
+              'Taxa de preservação ambiental',
+              'Seguro transporte'
+            ];
+
+            commonInclusions.forEach(inclusion => {
+              if (allText.toLowerCase().includes(inclusion.toLowerCase())) {
+                includes.push(inclusion);
+              }
+            });
           }
 
           return [...new Set(includes)].slice(0, 10); // Remove duplicates and limit

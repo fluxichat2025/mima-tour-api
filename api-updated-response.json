@@ -1,0 +1,902 @@
+{
+  "success": true,
+  "month": "setembro",
+  "includeDetails": true,
+  "data": [
+    {
+      "uid": "737",
+      "titulo": "Transporte  para The Town Interlagos SP - nao inclui ingresso",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/988fa7fc7c07e516b3dcfab94babe66c.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/transporte-para-the-town-interlagos-sp-nao-inclui-ingresso-uid737/44022",
+      "status": "ESGOTADO",
+      "preco_listagem": "",
+      "datas": [
+        {
+          "embarque": "06/09/2025, 12:40h",
+          "retorno": "06/09/2025, 23:59h"
+        },
+        {
+          "embarque": "12/09/2025, 23:30h",
+          "retorno": "13/09/2025, 18:00h"
+        },
+        {
+          "embarque": "14/09/2025, 23:30h",
+          "retorno": "15/09/2025, 18:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "12:40"
+        },
+        {
+          "ordem": 2,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "12:50"
+        }
+      ],
+      "roteiro": "embarque estacionamento rua da rodoviaria 12:50hpandia calogeras 228 sorocaba",
+      "o_que_inclui": [
+        "Transporte",
+        "Kit lanchinho",
+        "Monitor"
+      ],
+      "investimento": {
+        "pix": "R$ 150,00",
+        "cartao_credito": "R$ 150,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "749",
+      "titulo": "ILHABELA DATAS SETEMBRO 2025",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/f1ff40bee7c4707b6d9ad5f184f86390.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/ilhabela-datas-setembro-2025-uid749/44022",
+      "status": "ESGOTADO",
+      "preco_listagem": "R$159,00",
+      "datas": [
+        {
+          "embarque": "06/09/2025, 23:30h",
+          "retorno": "07/09/2025, 18:00h"
+        },
+        {
+          "embarque": "20/09/2025, 23:30h",
+          "retorno": "21/09/2025, 18:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 5- ARAÇARIGUAMA - TREVO MERCADO BOM LUGAR",
+          "hora": null
+        },
+        {
+          "ordem": 3,
+          "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+          "hora": "00:30"
+        },
+        {
+          "ordem": 4,
+          "local": "EMBARQUE 4- ITU -TENDA",
+          "hora": "00:50"
+        },
+        {
+          "ordem": 5,
+          "local": "EMBARQUE 6- TERMINAL BARRA FUNDA",
+          "hora": "01:45"
+        },
+        {
+          "ordem": 6,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "23:30"
+        }
+      ],
+      "roteiro": "Sorocaba,embarque saída sábado  as 23:30 horas (apresentaçao doc. Saida 00:00 em ponto)Rua Pandiá Calogeras 228, rua da rodoviaria de Sorocaba00:00 TERMINAL SP SOROCABARetorno pegando a balsa de travessia as 17;00 hrs ( 18:00 hrs saindo do estacionamento de sao sebastiao ) Viagem segura é com Cadastur! Consulte 35.443.481.0001/94https://linktr.ee/mima.tourspdia livre na praia guia monitor para dar suporte e informaçõestransporte dentro da ilha uber",
+      "o_que_inclui": [
+        "Pacotes completo",
+        "Transporte",
+        "Taxas entrada no município",
+        "Dia livre para curtir",
+        "Ilhabela guia acompanhante",
+        "Mimatour",
+        "Kit lanche",
+        "Ate 5 anos no colo nao paga A partir de 06 anos valor normal"
+      ],
+      "investimento": {
+        "pix": "R$ 159",
+        "cartao_credito": "R$ 169,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "780",
+      "titulo": "ILHABELA  - onibus 2- promoção -07/09/25- 150,00",
+      "url_img": "https://mimatourviagens.suareservaonline.com.br/assets/uploads/4990eb479f904778901523b684948f5b.jpg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/ilhabela-onibus-2-promocao-070925-15000-uid780/44022",
+      "status": "ESGOTADO",
+      "preco_listagem": "R$150,00",
+      "datas": [
+        {
+          "embarque": "07/09/2025, 00:00h",
+          "retorno": "07/09/2025, 17:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": null
+        },
+        {
+          "ordem": 3,
+          "local": "EMBARQUE 5- ARAÇARIGUAMA - TREVO MERCADO BOM LUGAR",
+          "hora": null
+        },
+        {
+          "ordem": 4,
+          "local": "EMBARQUE 6- TERMINAL BARRA FUNDA",
+          "hora": null
+        },
+        {
+          "ordem": 5,
+          "local": "EMBARQUE 4- ITU -TENDA",
+          "hora": "00:40"
+        },
+        {
+          "ordem": 6,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "23:30"
+        }
+      ],
+      "roteiro": "Sorocaba,embarque saída sábado  as 23:30 horas (apresentaçao doc. Saida 00:00 em ponto)Rua Pandiá Calogeras 228, rua da rodoviaria de SorocabaRetorno pegando a balsa de travessia as 17;00 hrs ( 18:00 hrs saindo do estacionamento de sao sebastiao )Saidas #sorocaba #itu #araçariguama #barrafunda #ilhabela Viagem segura é com Cadastur! Consulte 35.443.481.0001/94https://linktr.ee/mima.tourspdia livre na praia guia monitor para dar suporte e informaçõestransporte dentro da ilha uber",
+      "o_que_inclui": [
+        "Pacotes completo",
+        "Transporte",
+        "Taxas entrada no município",
+        "Dia livre para curtir",
+        "Ilhabela guia acompanhante",
+        "Mimatour",
+        "Kit lanche",
+        "Ate 5 anos no colo nao paga A partir de 06 anos valor normal"
+      ],
+      "investimento": {
+        "pix": "R$ 170,00",
+        "cartao_credito": "R$ 170,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "721",
+      "titulo": "Expoflora Holambra 2025",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/8f95d141b84df88a5cc5ac09ce4b02f6.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/expoflora-holambra-2025-uid721/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$180,00",
+      "datas": [
+        {
+          "embarque": "07/09/2025, 07:00h",
+          "retorno": "07/09/2025, 17:30h"
+        },
+        {
+          "embarque": "20/09/2025, 23:30h",
+          "retorno": "21/09/2025, 18:00h"
+        },
+        {
+          "embarque": "28/09/2025, 23:30h",
+          "retorno": "29/09/2025, 18:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "07:00"
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "07:40"
+        }
+      ],
+      "roteiro": "DIA NO PAVILHAO DO EVENTO EXPLOFLORA",
+      "o_que_inclui": [
+        "Transporte",
+        "Ingresso",
+        "Kit lanchinho",
+        "Monitor"
+      ],
+      "investimento": {
+        "pix": "R$ 180,00",
+        "cartao_credito": "R$ 180,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "748",
+      "titulo": "*THERMAS WATER PARQUE - SÁO PEDRO- 07/09/2025 FERIADO",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/48fd0df63189258735c32da0f2f49c96.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/thermas-water-parque-sao-pedro-07092025-feriado-uid748/44022",
+      "status": "ESGOTADO",
+      "preco_listagem": "R$55,00",
+      "datas": [
+        {
+          "embarque": "07/09/2025, 07:30h",
+          "retorno": "07/09/2025, 17:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "07:30"
+        }
+      ],
+      "roteiro": "DIA LIVRE NO PARQUEHorário de saída às 06:30Horário de retorno às 17:00Pontos de embarque:- ESTACIONAMENTO CONVENIADO RUA DA RODOVIARIA SOROCABAPANDIA CALOGERAS 228",
+      "o_que_inclui": [
+        "Incluso no pacote:",
+        "Transporte",
+        "Executivo ida e volta",
+        "Entrada",
+        "Parque",
+        "Thermas",
+        "Water",
+        "Park",
+        "Kit BORDO",
+        "Seguro"
+      ],
+      "investimento": {
+        "pix": "R$ 55,00",
+        "cartao_credito": "R$ 55,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "739",
+      "titulo": "Transporte  para The Town Interlagos SP - nao inclui ingresso",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/988fa7fc7c07e516b3dcfab94babe66c.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/transporte-para-the-town-interlagos-sp-nao-inclui-ingresso-uid739/44022",
+      "status": "ESGOTADO",
+      "preco_listagem": "",
+      "datas": [
+        {
+          "embarque": "06/09/2025, 23:30h",
+          "retorno": "07/09/2025, 18:00h"
+        },
+        {
+          "embarque": "12/09/2025, 12:40h",
+          "retorno": "12/09/2025, 23:59h"
+        },
+        {
+          "embarque": "14/09/2025, 23:30h",
+          "retorno": "15/09/2025, 18:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "12:40"
+        },
+        {
+          "ordem": 2,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "12:50"
+        }
+      ],
+      "roteiro": "embarque estacionamento rua da rodoviaria 12:50hpandia calogeras 228 sorocaba",
+      "o_que_inclui": [
+        "Transporte",
+        "Kit lanchinho",
+        "Monitor"
+      ],
+      "investimento": {
+        "pix": "R$ 150,00",
+        "cartao_credito": "R$ 150,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "753",
+      "titulo": "Rio de Janeiro | Cidade Maravilhosa",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/6ba083a3c6e22d21a74e3031fa2a8b3f.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/rio-de-janeiro-cidade-maravilhosa-uid753/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$75,00",
+      "datas": [
+        {
+          "embarque": "12/09/2025, 22:30h",
+          "retorno": "14/09/2025, 16:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "SALTO DE PIRAPORA - CALÇADÃO",
+          "hora": "22:00"
+        },
+        {
+          "ordem": 2,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "22:30"
+        },
+        {
+          "ordem": 3,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": "22:40"
+        }
+      ],
+      "roteiro": "Sexta-feira - 12/09:\n22h: Saída de Salto de Pirapora (Calçadão).22h30: Saída de Sorocaba – Rua Pandiá Calógeras, 228, Jd. Vergueiro.Sábado - 13/09:\nChegada prevista ao Rio de Janeiro às 7h da manhã.Check-in no hotel (deixaremos as malas e seguiremos direto para o passeio).City tour pelos pontos turísticos do Rio.Visita ao Cristo Redentor e Pão de Açúcar (opcional, ingressos não inclusos).Noite livre para passeios à escolha.Domingo - 14/09:\nDia livre para explorar as praias do Leblon e Ipanema.Sugestões de passeios serão dadas no local.16h: Retorno para a cidade de origem.",
+      "o_que_inclui": [
+        "Transporte ida e volta.",
+        "Hospedagem em hotel.",
+        "City tour pelos principais pontos turísticos do",
+        "Rio.",
+        "Guia acompanhante",
+        "Kit BORDO",
+        "Seguro rodoviário."
+      ],
+      "investimento": {
+        "pix": "R$ 750,00",
+        "cartao_credito": "R$ 750,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "756",
+      "titulo": "GUARUJA -14 de SETEMBRO 2025",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/2823702956f97ebbfd3bbfe904a4d9aa.jpg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/guaruja-14-de-setembro-2025-uid756/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$150,00",
+      "datas": [
+        {
+          "embarque": "14/09/2025, 02:00h",
+          "retorno": "14/09/2025, 17:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": null
+        },
+        {
+          "ordem": 3,
+          "local": "EMBARQUE 4- ITU -TENDA",
+          "hora": null
+        },
+        {
+          "ordem": 4,
+          "local": "EMBARQUE 1:- OBS: RUA DA RODOVIARIA DE SOROCABA - PANDIÁ CALOGERAS 228-estacionamento parceiro",
+          "hora": "02:00"
+        }
+      ],
+      "roteiro": "Roteiro não disponível",
+      "o_que_inclui": [
+        "Proxima",
+        "Guaruja #simbora fazer reserva",
+        "Nao deixe para depois p nao ficar de fora !!!Só R$150,00",
+        "Transporte",
+        "Praia",
+        "Enseada",
+        "Kit lanche",
+        "Guia acompanhando",
+        "Mima",
+        "Tour02:00 da manha"
+      ],
+      "investimento": {
+        "pix": "R$ 150,00",
+        "cartao_credito": "R$ 150,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "752",
+      "titulo": "HOPI HARI  NOITE  do HORROR - 14 DE SETEMBRO",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/79370608b666aefd8088438c6936a6dc.jpg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/hopi-hari-noite-do-horror-14-de-setembro-uid752/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$209,99",
+      "datas": [
+        {
+          "embarque": "14/09/2025, 08:00h",
+          "retorno": "14/09/2025, 20:30h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "08:00"
+        }
+      ],
+      "roteiro": "DIA LIVRE NO PARQUELOCAIS DE EMBARQUE: Sorocaba, ituSaida as 07:30-Estacionamento conveniado na rua da Rodoviaria de Sorocaba- Pandiá calogeras 228- terminal santo antonioRetorno as 20:30hrs",
+      "o_que_inclui": [
+        "INCLUSO NO PACOTE:-",
+        "Transporte executivo de acordo com a quantidade  de passageiros. -",
+        "Passaporte do parque. ➡️",
+        "Monitor ➡️serviço de bordo➡️",
+        "Seguro rodoviario"
+      ],
+      "investimento": {
+        "pix": "R$ 209,99",
+        "cartao_credito": "R$ 209,99"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "741",
+      "titulo": "Transporte  para The Town Interlagos SP - nao inclui ingresso",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/988fa7fc7c07e516b3dcfab94babe66c.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/transporte-para-the-town-interlagos-sp-nao-inclui-ingresso-uid741/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "",
+      "datas": [
+        {
+          "embarque": "06/09/2025, 23:30h",
+          "retorno": "07/09/2025, 18:00h"
+        },
+        {
+          "embarque": "12/09/2025, 23:30h",
+          "retorno": "13/09/2025, 18:00h"
+        },
+        {
+          "embarque": "14/09/2025, 12:40h",
+          "retorno": "14/09/2025, 23:59h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "12:40"
+        },
+        {
+          "ordem": 2,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "12:50"
+        }
+      ],
+      "roteiro": "embarque estacionamento rua da rodoviaria 12:50hpandia calogeras 228 sorocaba",
+      "o_que_inclui": [
+        "Transporte",
+        "Kit lanchinho",
+        "Monitor"
+      ],
+      "investimento": {
+        "pix": "R$ 150,00",
+        "cartao_credito": "R$ 150,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "722",
+      "titulo": "Expoflora Holambra 2025",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/8f95d141b84df88a5cc5ac09ce4b02f6.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/expoflora-holambra-2025-uid722/44022",
+      "status": "POUCAS VAGAS",
+      "preco_listagem": "R$180,00",
+      "datas": [
+        {
+          "embarque": "07/09/2025, 23:30h",
+          "retorno": "08/09/2025, 18:00h"
+        },
+        {
+          "embarque": "20/09/2025, 07:00h",
+          "retorno": "20/09/2025, 17:30h"
+        },
+        {
+          "embarque": "28/09/2025, 23:30h",
+          "retorno": "29/09/2025, 18:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "07:00"
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "07:40"
+        }
+      ],
+      "roteiro": "DIA NO PAVILHAO DO EVENTO EXPLOFLORA",
+      "o_que_inclui": [
+        "Transporte",
+        "Ingresso",
+        "Kit lanchinho",
+        "Monitor"
+      ],
+      "investimento": {
+        "pix": "R$ 180,00",
+        "cartao_credito": "R$ 180,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "750",
+      "titulo": "ILHABELA DATAS SETEMBRO 2025",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/f1ff40bee7c4707b6d9ad5f184f86390.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/ilhabela-datas-setembro-2025-uid750/44022",
+      "status": "EM PROMOÇÃO",
+      "preco_listagem": "R$159,00",
+      "datas": [
+        {
+          "embarque": "06/09/2025, 23:30h",
+          "retorno": "07/09/2025, 18:00h"
+        },
+        {
+          "embarque": "20/09/2025, 23:30h",
+          "retorno": "21/09/2025, 18:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 5- ARAÇARIGUAMA - TREVO MERCADO BOM LUGAR",
+          "hora": null
+        },
+        {
+          "ordem": 3,
+          "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+          "hora": "00:30"
+        },
+        {
+          "ordem": 4,
+          "local": "EMBARQUE 4- ITU -TENDA",
+          "hora": "00:50"
+        },
+        {
+          "ordem": 5,
+          "local": "EMBARQUE 6- TERMINAL BARRA FUNDA",
+          "hora": "01:45"
+        },
+        {
+          "ordem": 6,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "23:30"
+        }
+      ],
+      "roteiro": "Sorocaba,embarque saída sábado  as 23:30 horas (apresentaçao doc. Saida 00:00 em ponto)Rua Pandiá Calogeras 228, rua da rodoviaria de Sorocaba00:00 TERMINAL SP SOROCABARetorno pegando a balsa de travessia as 17;00 hrs ( 18:00 hrs saindo do estacionamento de sao sebastiao ) Viagem segura é com Cadastur! Consulte 35.443.481.0001/94https://linktr.ee/mima.tourspdia livre na praia guia monitor para dar suporte e informaçõestransporte dentro da ilha uber",
+      "o_que_inclui": [
+        "Pacotes completo",
+        "Transporte",
+        "Taxas entrada no município",
+        "Dia livre para curtir",
+        "Ilhabela guia acompanhante",
+        "Mimatour",
+        "Kit lanche",
+        "Ate 5 anos no colo nao paga A partir de 06 anos valor normal"
+      ],
+      "investimento": {
+        "pix": "R$ 159",
+        "cartao_credito": "R$ 169,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "754",
+      "titulo": "Ubatuba -  21 DE STEMBRO 2025 -PRAIA DO LAZARO+ GRUTA QUE CHORA-copy",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/692073d5aefc05f05d844c2424c61011.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/ubatuba-21-de-stembro-2025-praia-do-lazaro-gruta-que-chora-copy-uid754/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$199,99",
+      "datas": [
+        {
+          "embarque": "20/09/2025, 23:30h",
+          "retorno": "21/09/2025, 17:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 5- ARAÇARIGUAMA - TREVO MERCADO BOM LUGAR",
+          "hora": null
+        },
+        {
+          "ordem": 3,
+          "local": "EMBARQUE 6- TERMINAL BARRA FUNDA",
+          "hora": null
+        },
+        {
+          "ordem": 4,
+          "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+          "hora": "00:30"
+        },
+        {
+          "ordem": 5,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "23:30"
+        }
+      ],
+      "roteiro": "DIA LIVRE NA PRAIA GUIAS REGIONAIS PARA ACOMPANHARinformar e dar dicas",
+      "o_que_inclui": [
+        "Dia livre na praiaSAÍDA 23:30 hrs",
+        "Retorno 17:00 hrs TRANSPORTE IDA E VOLTA,GUIA",
+        "Credenciado local",
+        "Monitor",
+        "Mimatour",
+        "Kit lanche",
+        "Seguro transporte"
+      ],
+      "investimento": {
+        "pix": "R$ 199,99",
+        "cartao_credito": "R$ 199,99"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "751",
+      "titulo": "Capitólio-MG - 28 DE STEMBRO  2025-",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/1e3448156f8fbbfa730511ce89e34d97.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/capitolio-mg-28-de-stembro-2025-uid751/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$35,99",
+      "datas": [
+        {
+          "embarque": "27/09/2025, 22:30h",
+          "retorno": "28/09/2025, 17:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 4- ITU -TENDA",
+          "hora": null
+        },
+        {
+          "ordem": 2,
+          "local": "SALTO DE PIRAPORA - CALÇADÃO",
+          "hora": "22:00"
+        },
+        {
+          "ordem": 3,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "22:30"
+        },
+        {
+          "ordem": 4,
+          "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+          "hora": "23:00"
+        },
+        {
+          "ordem": 5,
+          "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+          "hora": "23:30"
+        }
+      ],
+      "roteiro": "6:00hrs: Chegada ao destino.Café da manhã ( nao incluso )  e troca de roupa.Passeio de lancha pelos Cânions.Almoço: Não incluso.Parada no Mirante dos Cânions (opcional, não incluso – valor para grupo: R$70,00).ingresson dos mirantesRetorno previsto 17h.",
+      "o_que_inclui": [
+        "O QUE INCLUI",
+        "Passeio de lancha nos Cânions (duração aproximada de 3 horas).",
+        "Transporte executivo.",
+        "Kit guloseima na ida.",
+        "Guia acompanhante",
+        "Seguro rodoviário."
+      ],
+      "investimento": {
+        "pix": "R$ 70,00",
+        "cartao_credito": "R$ 70,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "723",
+      "titulo": "Expoflora Holambra 2025",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/8f95d141b84df88a5cc5ac09ce4b02f6.jpeg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/expoflora-holambra-2025-uid723/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$180,00",
+      "datas": [
+        {
+          "embarque": "07/09/2025, 23:30h",
+          "retorno": "08/09/2025, 18:00h"
+        },
+        {
+          "embarque": "20/09/2025, 23:30h",
+          "retorno": "21/09/2025, 18:00h"
+        },
+        {
+          "embarque": "28/09/2025, 07:00h",
+          "retorno": "28/08/2025, 17:30h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+          "hora": "07:00"
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "07:40"
+        }
+      ],
+      "roteiro": "DIA NO PAVILHAO DO EVENTO EXPLOFLORA",
+      "o_que_inclui": [
+        "Transporte",
+        "Ingresso",
+        "Kit lanchinho",
+        "Monitor"
+      ],
+      "investimento": {
+        "pix": "R$ 180,00",
+        "cartao_credito": "R$ 180,00"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    },
+    {
+      "uid": "758",
+      "titulo": "FEIRA DA LIBERDADE EM SÃO PAULO + MEGALOJA CACAU SHOW -28/09/25",
+      "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/b1d3363134a3d7431368e65a6976c4b4.jpg",
+      "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/feira-da-liberdade-em-sao-paulo-megaloja-cacau-show-280925-uid758/44022",
+      "status": "DISPONÍVEL",
+      "preco_listagem": "R$125,00",
+      "datas": [
+        {
+          "embarque": "28/09/2025, 08:00h",
+          "retorno": "28/09/2025, 17:00h"
+        }
+      ],
+      "embarques": [
+        {
+          "ordem": 1,
+          "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+          "hora": "08:00"
+        },
+        {
+          "ordem": 2,
+          "local": "EMBARQUE 1:- OBS: RUA DA RODOVIARIA DE SOROCABA - PANDIÁ CALOGERAS 228-estacionamento parceiro",
+          "hora": "08:20"
+        }
+      ],
+      "roteiro": "O que tem para conhecer?Loja Da Hello KittyFeirinhaMomentos de lazer e compras;Comidas típicas e muio mais.",
+      "o_que_inclui": [
+        "Transporte",
+        "Seguro",
+        "Rodoviário",
+        "Monitor",
+        "Parada na",
+        "Cacau",
+        "Show"
+      ],
+      "investimento": {
+        "pix": "R$ 125,99",
+        "cartao_credito": "R$ 125,99"
+      },
+      "informacoes_importantes": {
+        "seguro_viagem": "Consulte condições na página da viagem",
+        "politica_minimo_passageiros": "Consulte condições na página da viagem",
+        "tolerancia_embarque": "Consulte condições na página da viagem",
+        "cancelamento": "Consulte condições na página da viagem",
+        "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+      }
+    }
+  ],
+  "total": 16,
+  "timestamp": "2025-09-05T19:32:32.420Z"
+}
