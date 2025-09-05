@@ -1,0 +1,54 @@
+{
+  "titulo": "Ilhabela Datas Setembro 2025",
+  "data_saida": [
+    "06/09/2025",
+    "07/09/2025",
+    "09 de agosto",
+    "06 de setembro",
+    "20 de setembro"
+  ],
+  "data_volta": null,
+  "embarques": [
+    {
+      "ordem": 1,
+      "local": "Terminal São Paulo – Sorocaba",
+      "hora": "00:00"
+    },
+    {
+      "ordem": 2,
+      "local": "Rua da Rodoviária Sorocaba",
+      "hora": "23:30"
+    },
+    {
+      "ordem": 3,
+      "local": "Terminal Barra Funda",
+      "hora": null
+    }
+  ],
+  "roteiro": "contato@mimatour.com.br",
+  "o_que_inclui": [
+    "Transporte",
+    "Kit lanche",
+    "Guia acompanhante",
+    "Seguro viagem",
+    "Monitor",
+    "Pacotes completo",
+    "Taxas entrada no município",
+    "Dia livre para curtir",
+    "Ilhabela guia acompanhante",
+    "Mimatour"
+  ],
+  "investimento": {
+    "pix": "R$ 159",
+    "cartao_credito": "R$ 169,00"
+  },
+  "informacoes_importantes": {
+    "seguro_viagem": "Consulte condições",
+    "politica_minimo_passageiros": "Consulte condições",
+    "tolerancia_embarque": "Consulte condições",
+    "cancelamento": "Consulte condições",
+    "documento_obrigatorio": "RG ou CNH obrigatórios"
+  },
+  "url_img": "https://img.suareservaonline.com.br/mimatourviagens/shop/products/featured/f1ff40bee7c4707b6d9ad5f184f86390.jpeg",
+  "url_reserva": "https://mimatourviagens.suareservaonline.com.br/pacote/ilhabela-datas-setembro-2025-uid749/44022"
+}

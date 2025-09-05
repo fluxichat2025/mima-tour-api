@@ -1,0 +1,57 @@
+{
+  "datas": [
+    {
+      "embarque": "06/09/2025, 23:30h",
+      "retorno": "07/09/2025, 18:00h"
+    },
+    {
+      "embarque": "20/09/2025, 23:30h",
+      "retorno": "21/09/2025, 18:00h"
+    }
+  ],
+  "embarques": [
+    {
+      "ordem": 1,
+      "local": "EMBARQUE 2- TERMINAL SÃO PAULO- SOROCABA",
+      "hora": null
+    },
+    {
+      "ordem": 2,
+      "local": "EMBARQUE 5- ARAÇARIGUAMA - TREVO MERCADO BOM LUGAR",
+      "hora": null
+    },
+    {
+      "ordem": 3,
+      "local": "CIDADE NOVA- Frente as lojas Cem ( SOROCABA /ITU)",
+      "hora": "00:30"
+    },
+    {
+      "ordem": 4,
+      "local": "EMBARQUE 4- ITU -TENDA",
+      "hora": "00:50"
+    },
+    {
+      "ordem": 5,
+      "local": "EMBARQUE 6- TERMINAL BARRA FUNDA",
+      "hora": "01:45"
+    },
+    {
+      "ordem": 6,
+      "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+      "hora": "23:30"
+    }
+  ],
+  "roteiro": "Sorocaba,embarque saída sábado  as 23:30 horas (apresentaçao doc. Saida 00:00 em ponto)Rua Pandiá Calogeras 228, rua da rodoviaria de Sorocaba00:00 TERMINAL SP SOROCABARetorno pegando a balsa de travessia as 17;00 hrs ( 18:00 hrs saindo do estacionamento de sao sebastiao ) Viagem segura é com Cadastur! Consulte 35.443.481.0001/94https://linktr.ee/mima.tourspdia livre na praia guia monitor para dar suporte e informaçõestransporte dentro da ilha uber",
+  "o_que_inclui": [],
+  "investimento": {
+    "pix": "R$ 159",
+    "cartao_credito": "R$ 169,00"
+  },
+  "informacoes_importantes": {
+    "seguro_viagem": "Consulte condições na página da viagem",
+    "politica_minimo_passageiros": "Consulte condições na página da viagem",
+    "tolerancia_embarque": "Consulte condições na página da viagem",
+    "cancelamento": "Consulte condições na página da viagem",
+    "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+  }
+}

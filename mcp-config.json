@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "websearch-mcp-mima-tour": {
+      "command": "node",
+      "args": ["src/index.js"],
+      "cwd": ".",
+      "env": {
+        "NODE_ENV": "production"
+      }
+    }
+  }
+}

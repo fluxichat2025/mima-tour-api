@@ -1,0 +1,73 @@
+{
+  "middleWizard": {
+    "exists": true,
+    "innerHTML": "\n                            <div class=\"submit step\">\n                                                                                                            <div class=\"border-top mt-4 pt-4 cart_destaque_valor\" style=\"background: #f9f9f9;border-top-left-radius: 8px;border-top-right-radius: 8px;\">\n                                            <div class=\"d-flex justify-content-between\">\n                                                <h6 class=\"m-0\"><small style=\"font-size: 16px;color: #212121;\">A partir de</small>\n                                                    <div style=\"font-size: 16px;text-decoration: line-through;color: #212121;\">R$170,00</div> </h6><br>\n                                                <h3 class=\"m-0\">\n                                                    <span class=\"bottom-wizard_mobile_value\">R$159,00</span>\n                                                    <small style=\"font-size: 10px;\" class=\"bottom-wizard_mobile_value\">/por pessoa</small>\n           ..."
+  },
+  "dateRadios": [
+    {
+      "index": 0,
+      "data": "2025-09-06",
+      "checked": true,
+      "value": "on",
+      "parentText": "06 de setembro\n                                                            sábado"
+    },
+    {
+      "index": 1,
+      "data": "2025-09-20",
+      "checked": false,
+      "value": "on",
+      "parentText": "20 de setembro\n                                                            sábado"
+    }
+  ],
+  "horarioRadios": [
+    {
+      "index": 0,
+      "data_saida": "06/09/2025",
+      "data_retorno": "07/09/2025",
+      "horasaida": "23:30",
+      "horaretorno": "18:00",
+      "value": "749",
+      "checked": true
+    }
+  ],
+  "selectHorarios": {
+    "exists": true,
+    "innerHTML": "\n                                    <h3 class=\"main_question\" style=\"text-align: center;\">\n                                                                                    ESCOLHER MELHOR DATA:\n                                                                            </h3>\n                                    <div class=\"form-group\">\n                                                                                    <div class=\"col-12\">\n                                                      ..."
+  },
+  "dadosSaida": {
+    "exists": true,
+    "innerHTML": "<div class=\"col-lg-6\">    <div class=\"cart_destaque\">        <strong><i class=\"fa fa-bus\"></i> Embarque:</strong>        <div style=\"font-size: 1.1rem;\">06/09/2025 <br>  23:30h</div>    </div> </div><div class=\"col-lg-6\">    <div class=\"cart_destaque\">        <strong><i class=\"fa fa-bus\"></i> Retorno:</strong>        <div style=\"font-size: 1.1rem;\">07/09/2025 <br>  18:00h</div>    </div> </div>",
+    "embarqueText": "Embarque:        06/09/2025   23:30h",
+    "retornoText": "Retorno:        07/09/2025   18:00h"
+  },
+  "allDateTexts": [
+    "61 de 09",
+    "61 de 09",
+    "61 de 09",
+    "06 de setembro",
+    "20 de setembro",
+    "07 de set",
+    "20 de set",
+    "21 de set",
+    "12 de out",
+    "07 de set",
+    "05 de outubro",
+    "04 de out",
+    "05 de out",
+    "14 de set",
+    "30 de dez",
+    "01 de jan",
+    "06 de set",
+    "06/09/2025",
+    "07/09/2025",
+    "07/09/2025",
+    "23:30",
+    "00:00",
+    "00:00",
+    "18:00",
+    "23:30",
+    "18:00",
+    "23:30h",
+    "18:00h"
+  ]
+}

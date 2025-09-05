@@ -1,0 +1,33 @@
+{
+  "data_saida": [
+    "06/09/2025"
+  ],
+  "data_volta": "06/09/2025",
+  "embarques": [
+    {
+      "ordem": 1,
+      "local": "EMBARQUE 3- TERMINAL SANTO ANTONIO- SOROCABA",
+      "hora": "12:40"
+    },
+    {
+      "ordem": 2,
+      "local": "1-EMBARQUE PRINCIPAL ( RUA DA RODOVIARIA SOROCABA) ESTACIONAMENTO PARCEIRO",
+      "hora": "12:50"
+    }
+  ],
+  "roteiro": "embarque estacionamento rua da rodoviaria 12:50hpandia calogeras 228 sorocaba",
+  "o_que_inclui": [
+    "Incluso:TransporteKit lanchinhoMonitor"
+  ],
+  "investimento": {
+    "pix": "R$ 150,00",
+    "cartao_credito": "R$ 150,00"
+  },
+  "informacoes_importantes": {
+    "seguro_viagem": "Consulte condições na página da viagem",
+    "politica_minimo_passageiros": "Consulte condições na página da viagem",
+    "tolerancia_embarque": "Consulte condições na página da viagem",
+    "cancelamento": "Consulte condições na página da viagem",
+    "documento_obrigatorio": "RG ou CNH com foto obrigatórios para embarque"
+  }
+}
