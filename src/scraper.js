@@ -441,42 +441,104 @@ export class MimaTourScraper {
         }
 
         function extractInvestimento() {
-          const investimento = { pix: "", cartao_credito: "" };
+          const investimento = {
+            valor_por_pessoa: "",
+            condicoes_pagamento: [],
+            // Manter campos antigos para compatibilidade
+            pix: "",
+            cartao_credito: ""
+          };
+
+          // Primeiro, tentar encontrar a seção INVESTIMENTO usando <details> e <summary>
+          const summaryElements = document.querySelectorAll('summary');
+          let investimentoSection = null;
+
+          for (const summary of summaryElements) {
+            if (summary.textContent.trim().toUpperCase().includes('INVESTIMENTO')) {
+              investimentoSection = summary.parentElement;
+              break;
+            }
+          }
+
+          if (investimentoSection) {
+            // Extrair valor por pessoa da seção INVESTIMENTO
+            const valorPorPessoaMatch = investimentoSection.textContent.match(/Valor por pessoa:\s*R\$\s*([\d,]+\.?\d*)/i);
+            if (valorPorPessoaMatch) {
+              investimento.valor_por_pessoa = `R$ ${valorPorPessoaMatch[1]}`;
+              // Usar como valores padrão para PIX e cartão
+              investimento.pix = `R$ ${valorPorPessoaMatch[1]}`;
+              investimento.cartao_credito = `R$ ${valorPorPessoaMatch[1]}`;
+            }
+
+            // Extrair condições de pagamento da lista <ul><li> dentro da seção INVESTIMENTO
+            const listItems = investimentoSection.querySelectorAll('li');
+            listItems.forEach(li => {
+              const texto = li.textContent.trim();
+              if (texto) {
+                investimento.condicoes_pagamento.push(texto);
+              }
+            });
+
+            // Se não encontrou na lista, tentar extrair de parágrafos dentro da seção INVESTIMENTO
+            if (investimento.condicoes_pagamento.length === 0) {
+              const paragraphs = investimentoSection.querySelectorAll('p');
+              paragraphs.forEach(p => {
+                const texto = p.textContent.trim();
+                if (texto && !texto.includes('Valor por pessoa:')) {
+                  investimento.condicoes_pagamento.push(texto);
+                }
+              });
+            }
+
+            return investimento;
+          }
+
+          // Fallback RESTRITO: buscar apenas por texto que contenha "INVESTIMENTO" próximo ao valor
           const allText = document.body.textContent;
 
-          // Look for PIX price pattern based on debug output
-          const pixMatch = allText.match(/R\$\s*149,99\s*pix|pix[^R]*R\$\s*(\d+,?\d*)/i);
-          if (pixMatch) {
-            if (pixMatch[1]) {
-              investimento.pix = `R$ ${pixMatch[1]}`;
-            } else {
-              investimento.pix = "R$ 149,99";
+          // Buscar seção de investimento no texto (mais restritivo)
+          const investimentoSectionMatch = allText.match(/INVESTIMENTO[\s\S]{0,500}?R\$\s*([\d,]+\.?\d*)/i);
+          if (investimentoSectionMatch) {
+            const valor = `R$ ${investimentoSectionMatch[1]}`;
+            investimento.valor_por_pessoa = valor;
+            investimento.pix = valor;
+            investimento.cartao_credito = valor;
+
+            // Buscar condições próximas à seção INVESTIMENTO
+            const investimentoContext = allText.match(/INVESTIMENTO[\s\S]{0,1000}/i);
+            if (investimentoContext) {
+              const contextText = investimentoContext[0];
+
+              // Buscar condições específicas apenas no contexto do INVESTIMENTO
+              const condicoesComuns = [
+                /Parcelamos no Pix[^.]*(?:\.|$)/gi,
+                /Parcelamento no cartão[^.]*(?:\.|$)/gi,
+                /Valores em quartos[^.]*(?:\.|$)/gi,
+                /consultar valor[^.]*(?:\.|$)/gi,
+                /consultar taxas[^.]*(?:\.|$)/gi
+              ];
+
+              condicoesComuns.forEach(regex => {
+                const matches = contextText.match(regex);
+                if (matches) {
+                  matches.forEach(match => {
+                    const texto = match.trim().replace(/\.$/, '');
+                    if (texto && !investimento.condicoes_pagamento.includes(texto)) {
+                      investimento.condicoes_pagamento.push(texto);
+                    }
+                  });
+                }
+              });
             }
           }
 
-          // Look for credit card price pattern
-          const cartaoMatch = allText.match(/R\$\s*169,00\s*cartão|cartão[^R]*R\$\s*(\d+,?\d*)/i);
-          if (cartaoMatch) {
-            if (cartaoMatch[1]) {
-              investimento.cartao_credito = `R$ ${cartaoMatch[1]}`;
-            } else {
-              investimento.cartao_credito = "R$ 169,00";
-            }
-          }
-
-          // Look for general investment text
-          const investimentoMatch = allText.match(/INVESTIMENTO[^R]*R\$\s*(\d+,?\d*)[^R]*R\$\s*(\d+,?\d*)/i);
-          if (investimentoMatch && !investimento.pix && !investimento.cartao_credito) {
-            investimento.pix = `R$ ${investimentoMatch[1]}`;
-            investimento.cartao_credito = `R$ ${investimentoMatch[2]}`;
-          }
-
-          // Fallback to main price if found
-          if (!investimento.pix && !investimento.cartao_credito) {
-            const mainPriceMatch = allText.match(/R\$\s*(\d+,?\d*)/);
-            if (mainPriceMatch) {
-              investimento.pix = `R$ ${mainPriceMatch[1]}`;
-              investimento.cartao_credito = `R$ ${mainPriceMatch[1]}`;
+          // Se ainda não encontrou nada, buscar apenas "Valor por pessoa" (mais específico)
+          if (!investimento.valor_por_pessoa) {
+            const valorPorPessoaMatch = allText.match(/Valor por pessoa:\s*R\$\s*([\d,]+\.?\d*)/i);
+            if (valorPorPessoaMatch) {
+              investimento.valor_por_pessoa = `R$ ${valorPorPessoaMatch[1]}`;
+              investimento.pix = `R$ ${valorPorPessoaMatch[1]}`;
+              investimento.cartao_credito = `R$ ${valorPorPessoaMatch[1]}`;
             }
           }
 
